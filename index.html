@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86088c0e36.js" crossorigin="anonymous"></script>
+    <title>Encriptador/Desencriptador</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="">
+            <div class="logo"></div>
+        </a>
+
+        <H1 class="titulo">ENCRIPTADOR DE TEXTO</H1>
+
+    </header>
+
+    <div class="contenedor_todo">
+        <div class="ingresar">
+            <textarea id="textoOriginal" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="contenedor btn">
+                <p><i class="fa-solid fa-circle-exclamation" style="color: #74C0FC;"></i> Solo letras minusculas y sin
+                    acento</p>
+
+                <button class="btn1" onclick="encriptarTexto()">Encriptar</button>
+                <button class="btn2" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="contenedor_resultado">
+
+            <div class="resultado" id="resultadoContainer"></div>
+
+        <button class="copiar" onclick="copiarTexto()" ><i class="fas fa-copy" ></i> Copiar</button>
+
+    </div>
+        
+        
+    </div>
+
+    <footer>
+    <div class="contenedor-footer">
+        <div class="info">
+            <h3>Información de Contacto</h3>
+            <p>c10 248 Santo Domingo</p>
+            <p>contacto.jezel@gmail.com</p>
+            <p>Teléfono: 1+ 829-827-9876</p>
+        </div>
+
+        <div class="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <a href="https://www.linkedin.com/in/jezel-pujols-4848bb1a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2024 Jezel Pujols. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
